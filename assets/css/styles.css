@@ -1,0 +1,46 @@
+/* css reset global styles*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    border: 1px solid navy;
+}
+
+/* body color and font styles*/
+body {
+    background-color: rgb(204, 204, 204);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*timer in red background implies urgency*/
+p{
+    color: white;font-size: 22px;
+    background-color: red;
+}
+
+button {
+    outline: none;
+    background-color: cyan;
+    color: navy;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+/* Outermost div container */
+.outside-div {
+    padding: 10px;
+    height: 100vh;
+}
+
+/* timer text moved to the right side of top section */
+.top-section p {
+   float: right; 
+}
+
+/* inside div container */
+
+
+/* header sectionn*/
+
+/* main section*/
