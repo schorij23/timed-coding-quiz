@@ -8,11 +8,18 @@
     <title> Timed JavaScript Coding Quiz</title>
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
-<h1 class="scores-hover" onclick="viewHighScores()">View High Scores</h1>
+
 <body>
    <header>
-    <h1></h1>
+    <h1 class="scores-hover" onclick="viewHighScores()">View High Scores</h1>
+    <h1 id="timer-count"></h1>
    </header> 
+
+   <main>
+    <section id="test-name" class="test-name">
+        <h2>JavaScript Coding Quiz</h2>    
+    </section>
+   </main>
 
     <script src="/js/scripts.js"></script>
 </body>
