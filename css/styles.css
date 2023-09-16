@@ -22,7 +22,8 @@ main {
 }
 
 section {
-    background-color: white;
+    background-color: black;
+    color: white;
     display: flex;
     flex-direction: column;
     align-self: center;
@@ -33,7 +34,7 @@ section {
     padding: 5% 5%;
 }
  h2 {
-    font-size: 32px;
+    font-size: 60px;
     text-align: center;
     padding-bottom: 2%;
     margin-top: 6%;
@@ -42,9 +43,20 @@ section {
 
 p{
     text-align: center;
+    font-size: 42px;
 }
 
  li {
     list-style-type: none;
     text-align: center;
+    font-size: 42px;
+ }
+
+ .start-quiz {
+    align-self: center;
+    background-color: cyan;
+    color: black;
+    cursor: pointer;
+    font-size: 60px;
+    box-shadow: 5px 5px 5px 5px black;
  }
