@@ -13,11 +13,17 @@ h1.scores-hover {
     padding-top: 1%;
     color: white;
     margin-bottom: 1%;
+    display: flex;
 } 
+.test-count {
+    color: white;
+    background-color: black;
+}
 
 main {
     display: flex;
     min-height: 85%;
+    background-color: navy;
     
 }
 
@@ -58,5 +64,5 @@ p{
     color: black;
     cursor: pointer;
     font-size: 60px;
-    box-shadow: 5px 5px 5px 5px black;
+    box-shadow: 5px 5px 5px 5px limegreen;
  }

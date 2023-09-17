@@ -14,11 +14,11 @@
     <h1 class="scores-hover" onclick="viewHighScores()">View High Scores</h1>
     <h1 id="timer-count"></h1>
    </header> 
-
+<!-- Main screen on page load -->
    <main>
     <section id="test-name" class="test-name">
         <h2>JavaScript Coding Quiz</h2>  
-        <p> This is a Timed quiz about JavaScript, and these are the rules</p>
+        <p> This is a Timed quiz about JavaScript, and these are the rles</p>
           <ul>
             <li>This quiz has a 120 second time limit</li>
             <li>There only one chance to get the answer correct</li>
@@ -27,6 +27,24 @@
           </ul>
           <button class="start-quiz" onclick="startQz()">Start Your Quiz</button>
     </section>
+    
+<!-- screen after click on start -->
+    <section id="theQuestion" class="theQuestion">
+<!-- question choices -->
+      <h3 id="questionsText"></h3>
+        <div id="theAnswer"></div>
+        <button id="nextbtn" class="confirmQu-hover-button" 
+        onclick="nextQuestion()">
+        Next
+      </button>
+    </section>
+<!-- screen after click on next -->
+<section id="yourScore" class="yourScore">
+<p>Correct Answers</p>
+<p id="correct-answers"></p>
+<p>Your Score</p>
+<p id="your-score"></p>
+</section>
    </main>
 
     <script src="/js/scripts.js"></script>
