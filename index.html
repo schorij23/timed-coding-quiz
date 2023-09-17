@@ -25,7 +25,7 @@
             <li>Time is reduced by :00 seconds when the answer is wrong</li>
             <li>Place holder constraint</li>
           </ul>
-          <button class="start-quiz" onclick="startQz()">Start Your Quiz</button>
+          <button class="button-hover" onclick="startQz()">Start Your Quiz</button>
     </section>
     
 <!-- screen after click on start -->
@@ -44,7 +44,15 @@
 <p id="correct-answers"></p>
 <p>Your Score</p>
 <p id="your-score"></p>
+<input type="text" name="name" id="name" placeholder="Enter your ininitals"
+maxlength="2"
+> 
+<!-- options on result screen -->
+<button class="button-hover" onclick="myScore()">Save the Score</button>
+<button class="button-hover" onclick="mainScreen()">Retry</button>
 </section>
+<section id="scores" class="scores"></section>
+
    </main>
 
     <script src="/js/scripts.js"></script>

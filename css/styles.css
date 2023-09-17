@@ -58,11 +58,11 @@ p{
     font-size: 42px;
  }
 
- .start-quiz {
+ .button-hover {
     align-self: center;
     background-color: cyan;
     color: black;
     cursor: pointer;
     font-size: 60px;
-    box-shadow: 5px 5px 5px 5px limegreen;
+    box-shadow: 5px 5px 5px 5px lightgray;
  }

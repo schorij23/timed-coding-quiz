@@ -1,7 +1,8 @@
-// my html references
+// my html element references
 var timerQz = document.getElementById("timer-count")
-Var sections = {
+var quizParts = {
    testName: document.getElementById('test-name'),
-   
+   theQuestion: document.getElementById('theQuestion'),
+   yourScore: document.getElementById('yourScore')
 
 }
