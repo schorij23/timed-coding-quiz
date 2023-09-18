@@ -18,14 +18,14 @@
    <main>
     <section id="test-name" class="test-name">
         <h2>JavaScript Coding Quiz</h2>  
-        <p> This is a Timed quiz about JavaScript, and these are the rles</p>
+        <p> This is a Timed quiz about JavaScript, and these are the rules</p>
           <ul>
             <li>This quiz has a 120 second time limit</li>
             <li>There only one chance to get the answer correct</li>
             <li>Time is reduced by :00 seconds when the answer is wrong</li>
             <li>Place holder constraint</li>
           </ul>
-          <button class="button-hover" onclick="startQz()">Start Your Quiz</button>
+          <button id='start-quiz' class="button-hover">Start Your Quiz</button>
     </section>
     
 <!-- screen after click on start -->
@@ -51,7 +51,14 @@ maxlength="2"
 <button class="button-hover" onclick="myScore()">Save the Score</button>
 <button class="button-hover" onclick="mainScreen()">Retry</button>
 </section>
-<section id="scores" class="scores"></section>
+<section id="scores" class="scores">
+  <ol id="viewHighScores"></ol>
+  <button class="button-hover" onclick="mainScreen">Restart Quiz</button>
+  <button class="button-hover" onclick="clearscores" id="clear-score">Clear the Score</button>
+</Scores>
+
+
+</section>
 
    </main>
 
