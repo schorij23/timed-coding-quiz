@@ -20,3 +20,7 @@ THEN the game is over
 WHEN the game is over
 THEN I can save my initials and scorea
 ```
+
+Git Hub Deploymnet page link https://schorij23.github.io/timed-coding-quiz/
+
+![Screenshot 2023-09-18 at 23-07-59 Timed JavaScript Coding Quiz](https://github.com/schorij23/timed-coding-quiz/assets/5600528/2bfdde75-d621-4f03-8a0d-2113ceff0cb3)
