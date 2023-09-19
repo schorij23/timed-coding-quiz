@@ -7,8 +7,9 @@ I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
 SO THAT I can gauge my progress compared to my peers
 ```
 
-## Acceptance CriteriGIVEN I am taking a code quiz
+## Acceptance Criteria
 ```
+Given I am taking a coding quiz
 WHEN I click the start button
 THEN a timer starts and I am presented with a question
 WHEN I answer a question
