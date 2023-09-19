@@ -22,7 +22,7 @@
           <ul>
             <li>This quiz has a 120 second time limit</li>
             <li>There only one chance to get the answer correct</li>
-            <li>Time is reduced by :00 seconds when the answer is wrong</li>
+            <li>Time is reduced by :05 seconds when the answer is wrong</li>
             <li>Place holder constraint</li>
           </ul>
           <button id='start-quiz' class="button-hover">Start Your Quiz</button>
@@ -49,12 +49,12 @@ maxlength="2"
 > 
 <!-- options on result screen -->
 <button class="button-hover" onclick="myScore()">Save the Score</button>
-<button class="button-hover" onclick="mainScreen()">Retry</button>
+<button class="button-hover" onclick="startQuiz()">Retry</button>
 </section>
 <section id="scores" class="scores">
   <ol id="viewHighScores"></ol>
-  <button class="button-hover" onclick="mainScreen">Restart Quiz</button>
-  <button class="button-hover" onclick="clearscores" id="clear-score">Clear the Score</button>
+  <button class="button-hover" onclick="startQuiz()">Restart Quiz</button>
+  <button class="button-hover" onclick="clearscores()" id="clear-score">Clear the Score</button>
 </Scores>
 
 
